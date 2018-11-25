@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+body,h1,h2,h3,h4,h5,h6,p,hr,pre,blockquote,ol,ul,dl,dd,form,fieldset,input,textarea,button { margin: 0; background:#fff7ec; } 
+ol,ul,th,td,fieldset,legend, input,textarea,button { padding: 0; }
+img,fieldset { border: none; }
+body,input,textarea,select,button { font: 12px/1.5 Arial, \5fae\8f6f\96c5\9ed1, sans-serif; }
+h1,h2,h3,h4,h5,h6,small { font-size: 100%; }
+address,em,cite,dfn,var,i { font-style: normal; }
+ol,ul { list-style: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+legend { color: #000; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* ==========================================================================
+   Clearfix
+   ========================================================================== */
+.clearfix { zoom: 1; }
+.clearfix:before,.clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; overflow: hidden; }
+
+/* ==========================================================================
+   Maka
+   ========================================================================== */
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.nomb{
+  margin-bottom:0 !important;
+}
+body{ margin:0; padding:0; 
+
+}
+img { vertical-align: bottom;border:none; }
+.inner{width:980px; margin:0 auto;}
+.act{
+  width: 100%;
+  background: url(../images/ysm/topact.jpg) no-repeat center top;
+}
+.w1440{width: 1440px;
+margin:0 auto;}
+
+#wffahuo{ width:980px;height:500px;}
+
+*/
+.banner { width: 100%;height:auto; margin: 0 auto; }
+.section { width: 980px; margin: 0 auto; background:#fff7ec; }
+.section header{ width:1000px; height:auto; margin:30px auto 20px;}
+.section div { margin-bottom: 20px; }
+.banner{ width:100%;  text-align: center; }
+
+.comment{
+ background:#fff7ec; 
+  margin-bottom:10px;
+}
+.comment div{
+  margin:0;
+}
+.comment #wffahuo{
+  position:relative;
+overflow:hidden; height:500px; 
+}
+.comment #wffahuo1{
+  width:820px;
+  margin:0 auto;
+  left:90px;
+  top:0;
+}
+.comment #wffahuo2{
+  width:820px;
+  margin:0 auto;
+    left:90px;
+  top:0;
+}
+.comment #wffahuo h3{
+  font:16px/36px "微软雅黑";
+  font-weight:bold;
+}
+.comment #wffahuo1 .shipping-date{
+  font:14px/36px "微软雅黑";
+}
+
+.comment #wffahuo2 .shipping-date{
+  font:14px/36px "微软雅黑";
+}
+
+
+.comment #wffahuo .oneprice{
+  border-bottom:1px dashed gray;padding:15px 0 10px;
+}
+.comment .sublun{width:168px; height:42px; border-radius:3px; background:#936f00; border:none; color:#ffffff; font-size:18px; }
+.mml_view{  border-bottom:1px solid #8B0F0A; overflow: hidden; padding:10px 40px; margin:0 36px; *zoom:1;}
+.mml_v1{ width: 320px; height:110px; float: left; border-right: 1px solid #908F8F; padding-right: 10px;}
+.mml_v1 p{ font-size:14px;font-family:"microsoft yahei";}
+.mml_v1 dl{ width: 110px; float: left; margin-left:15px;}
+.mml_v1 dt{ font-size: 50px; line-height:50px; color: #e43a3d; font-family:"microsoft yahei";}
+.mml_v1 dt span{ font-size: 20px;}
+.mml_v1 dd{ color:#999999; font-family:"microsoft yahei";}
+.mml_v1 ul{ width: 179px; float: left; padding-top:5px;}
+.mml_v1 li{ overflow: hidden;}
+.mml_v1 li span{ float: left; width: 75px;}
+.mml_v1 li span b{ color: #9c9aab; font-weight: normal;font-family:"microsoft yahei";}
+.mml_v1 li u{ width: 100px; height: 11px; overflow: hidden; background-color: #D6CFCF; float: left; margin-top:8px;}
+.mml_v1 li i{ height: 11px; overflow: hidden;  float: left; background:url(http://maca.51caiyao.net/themes/default/images/alj/images/mml_b_51.jpg) repeat-x 0 0 #e43a3d;}
+.mml_v12{ width:500px; height:110px; float: left;  padding: 0px 10px;}
+.mml_v12 dt{color:#666;}
+.mml_v12 dd a{ background-color: #72c02f; float: left; padding:0 5px; height: 18px; line-height: 18px; text-align: center; margin:5px 5px 0px 0px; white-space:nowrap; font-size:14px; font-family:"瀹嬩綋"; color:white;}
+.mml_v12 dd a:hover{text-decoration: none; background:#ffcc76;}
+
+
+.page-footer { margin: 0 auto 54px;}
+.page-footer div{margin:auto; text-align:center; position:relative;}
+
+.floatleft{ position: fixed; left: 8px; top: 50%; margin-top:-148px; }
+.floatright{ position:fixed; right:0px; top:50%; margin-top:-180px; z-index:999999; }
+
+#kzj_swt{ width:434px; height:267px; z-index:999999; background:url(../images/ysm/ysmswt.gif) no-repeat; display:none;}
+#swt_c{ position:relative;}
+#swt_close1{ position:absolute; width:20px; height:20px; display:block; top: 55px;right: 10px;}
+#swt_open{ position: absolute;width: 84px;height: 26px;display: block;top: 217px;left: 192px;}
+#swt_close2{ position: absolute;width: 84px;height: 27px;display: block;top: 217px;left: 295px;}
+.alts{position:fixed; top:50%; left:50%; display:none; width:484px; height:212px; margin-left:-242px; margin-top:-106px; z-index:999;}
+

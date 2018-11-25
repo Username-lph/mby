@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>留言</title>
+    <link rel="stylesheet" href="../public/css/ysm1.css">
+
+    <SCRIPT language=javascript>
+        function checkform(){
+            	if(document.forma.name.value==''){
+            		alert('昵称不能为空，请重新填写！');
+            		document.forma.name.focus();
+            		return false;
+            	}
+				
+				if(document.forma.message.value==''){
+            		alert('评论内容不能为空，请重新填写！');
+            		document.forma.message.focus();
+            		return false;
+            	}			
+				
+        alert('您的评价我们已收到，感谢您的参与！ ');
+        return false;
+        }
+
+    function get_effect(str){
+    //alert(document.getElementById("nums_"+str).innerText);
+    document.getElementById("nums_"+str).innerText=document.getElementById("nums_"+str).innerText*1+1;
+    }
+    </SCRIPT>
+
+
+</head>
+
+<body>
+
+    <!-- 评论开始 -->
+    <section class="section comment" style="position:relative;">
+        <div class="mml_view nomb">
+            <div class="mml_v1 nomb">
+                <dl>
+                    <dd>
+                        <p>商品评价</p>
+                    </dd>
+                    <dt>99<span>%</span></dt>
+                    <dd style="padding-left:10px">好评度</dd>
+                </dl>
+                <ul>
+                    <li><span>好评<b>（98%）</b></span><u><i style="width:98%;"></i></u></li>
+                    <li><span>中评<b>（2%）</b></span><u><i style="width:2%;"></i></u></li>
+                    <li><span>差评<b>（0%）</b></span><u><i style="width:0;"></i></u></li>
+                </ul>
+            </div>
+            <div class="mml_v12 nomb">
+                <dl>
+                    <dd>
+                        <a href="javascript:void(0);" onclick="get_effect(1);">整体感觉不错 （<span id="nums_1">5127</span>）
+                            <input type="hidden" id="effect_num_1" value="5127">
+                            <input type="hidden" id="effect_id_1" value="1">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(2);">是正品（<span id="nums_2">9821</span>）
+                            <input type="hidden" id="effect_num_2" value="19821">
+                            <input type="hidden" id="effect_id_2" value="2">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(3);">有效果（<span id="nums_3">51435</span>）
+                            <input type="hidden" id="effect_num_3" value="6294">
+                            <input type="hidden" id="effect_id_3" value="3">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(4);">见效快（<span id="nums_4">7633</span>）
+                            <input type="hidden" id="effect_num_4" value="8608">
+                            <input type="hidden" id="effect_id_4" value="4">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(5);">使用方便（<span id="nums_5">49872</span>）
+                            <input type="hidden" id="effect_num_5" value="3629">
+                            <input type="hidden" id="effect_id_5" value="5">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(6);">包装精美<span id="nums_6">3320</span>）
+                            <input type="hidden" id="effect_num_6" value="3630">
+                            <input type="hidden" id="effect_id_6" value="6">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(7);">服务态度好 <span id="nums_7">9563</span>）
+                            <input type="hidden" id="effect_num_7" value="2660">
+                            <input type="hidden" id="effect_id_7" value="7">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(8);">卖家发货快（<span id="nums_8">2256</span>）
+                            <input type="hidden" id="effect_num_8" value="1573">
+                            <input type="hidden" id="effect_id_8" value="8">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(9);">服务周到（<span id="nums_9">7946</span>）
+                            <input type="hidden" id="effect_num_9" value="1246">
+                            <input type="hidden" id="effect_id_9" value="9">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(10);">顾问很专业（<span id="nums_10">8563</span>）
+                            <input type="hidden" id="effect_num_10" value="1246">
+                            <input type="hidden" id="effect_id_10" value="10">
+                        </a>
+                        <a href="javascript:void(0);" onclick="get_effect(11);">安全（<span id="nums_11">65473</span>）
+                            <input type="hidden" id="effect_num_11" value="1246">
+                            <input type="hidden" id="effect_id_11" value="11">
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+
+        <!-- 评论结束 -->
+
+
+        <div id="wffahuo" style="overflow:hidden;">
+            <div id="wffahuo1" style="overflow:hidden;">
+                <script type="text/javascript" src="../public/js/lyy2.js"></script>
+                </script>
+            </div>
+            <div id="wffahuo2"></div>
+        </div>
+
+
+
+        <div style="width:1050px; height:235px;padding-bottom:24px; margin:0 auto;">
+            <form action="" name=forma onsubmit='return checkform();' method="POST">
+
+                <div style="width:550px;float:left;padding-top:15px;">
+                    <h3 style="margin: auto;"><label style="width:90px; height:30px; line-height:30px; display:inline-block; text-align:right; padding-right:10px; font-size:16px; font-weight:normal;">昵
+                            称：</label><input type="text" name="name" style="width:300px; height:30px; line-height:30px; border-radius:3px; border:solid 1px #dddddd;"
+                            class="names"></h3>
+                    <div style="float:left;width: 550px;">
+                        <p style="margin:10px auto; line-height:30px;" class="clearfix">
+                            <label style="width:90px; height:30px; float:left; line-height:30px; display:inline-block; text-align:right; padding-right:10px; font-size:16px; font-weight:normal; vertical-align:text-top;">评论内容：</label><textarea
+                                style="width:400px; height:100px; line-height:20px;  border:solid 1px #dddddd;" name="message"
+                                class="content"></textarea>
+                        </p>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <p style="padding-left:100px;"><input type="submit" name="提交评论" class="sublun" id="提交评论"></button></p>
+                </div>
+
+            </form>
+
+            <div style="float:right;padding-top:10px;">
+                <img src="../public/img/index_2_58.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+<script type="text/javascript" src="../public/js/wfgd.js"></script>
+
+</html>
