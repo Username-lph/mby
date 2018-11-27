@@ -9,7 +9,7 @@ $(function(){
         $(this).find(".f-content").hide();
     })
     
-    $(".lazy").lazyload({
+    $("img[data-original]").lazyload({
         threshold: 200,
         effect: "fadeIn"
     });

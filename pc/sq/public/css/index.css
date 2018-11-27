@@ -1,0 +1,25 @@
+.sq{
+   width:1156px;
+   /* height:699px; */
+   padding:15px;
+   background:#fff;
+   display:flex;
+   display:-webkit-flex; 
+   justify-content:flex-end;
+   position: absolute;
+   top: 163px;
+   left: 50%;
+   margin-left: -593px;
+}
+.sq-content{
+    display:flex;
+    justify-content:center;
+}
+.sq-img{
+    width:304px;
+    height:299px;
+}
+.f_main_sq{
+    position:absolute;
+    top:616px;
+}

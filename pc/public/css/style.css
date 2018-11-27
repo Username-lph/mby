@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*reset 重置*/
-body{font:12px/18px "微软雅黑",arial,sans-serif;color:#2c2c2c; background-color:#420E0E;position:relative;}
+body{ 
+	font:12px/18px "微软雅黑",arial,sans-serif;color:#2c2c2c; background-color:#420E0E;position:relative;}
 *{
 	_position:absolute;
 }
@@ -34,43 +35,10 @@ a:active{color:#1d7400;}
 
 
 /* 框架 */
-.Wrapper{
-	/* position:relative; */
-	display:flex;
-	display:-webkit-flex;
-	flex-direction:column;
-	justify-content:space-between;
-	align-items:center;
-	flex-wrap:wrap;
-	/* height:6487px; */
-	margin-top:-586px;
-}
-/* .wrapper{ width:100%; height:4131px; position:absolute; z-index:1555; top:-50px;  margin:0 auto;} */
-.wrapper{
-	width:100%;
-	height:4131px;
-	/* background:url(../img/wrapper.png) no-repeat center 500px; */
-	z-index:555;
-	/* position:absolute;
-	top:-589px; */
-	display:flex;
-	display:-webkit-flex;
-	justify-content:center;
-	
-}
-.gx{
-	height:2356px;
-	/* position:absolute; */
-	display:flex;
-	display:-webkit-flex;
-	/* bottom:586px; */
-}
+
 .wrapper_area{ width:1200px; margin:0 auto;}
 .wrapper_title{ width:1200px; margin:0 auto;}
-.us_header{ width:100%; height:1474px; background:url(../img/Banner.png) no-repeat center -143px;
-	z-index:11; 
-}
-.us_header_area{ width:1200px; margin:0 auto;}
+
 .us_footer_area{  margin:0 auto;}
 
 .wrapper2{
@@ -161,7 +129,21 @@ a:active{color:#1d7400;}
 .STYLE1 {color: #FF0000}
 
 /* f_main 底部 */
-.f_main { margin:0 auto; width:100%;background:url(../img/index_2_84.png) repeat-x center; height:411px;}
+footer{
+	display:flex;
+	display:-webkit-flex;
+	justify-content:center;
+	position:relative;
+}
+.f_main { 
+	width:100%;
+	background:url(../img/footer0.png) no-repeat center center; 
+	height:457px;
+	position:absolute;
+	_position:absolute;
+	top:7128px;
+	/* bottom:-7569px; */
+}
 .i_foot {clear:both;display:block;color:#666;height:411px;position:relative; }
 .i_foot .w980 { background:none; position:relative;}
 .i_foot p {margin:10px 0;}
@@ -255,11 +237,11 @@ html{_text-overflow:ellipsis;} /*解决IE6下图片抖动*/
 
 /* qy_head */
 .qy_head{ width:100%; background:url(headbg.png) repeat-x; font-size:12px; position:absolute; z-index:110;}
-.qy_headbd{ width:1200px; margin:0 auto; height:163px;}
+.qy_headbd{  margin:0 auto; height:163px;}
 
 /* 头部 */
 
-.qy_head{ background:url(../img/headbg3.png) repeat-x; height:163px;}
+/* .qy_head{ background:url(../img/A-2_01.jpg) repeat-x; height:163px;} */
 .qy_head{ background-repeat:no-repeat; background-position:center center; z-index:111;}
 .qy_logo{ background:none;}
 .qy_logo a{ display:inline-block; width:143px; height:67px;}
@@ -279,6 +261,8 @@ nav{
 .qy_menu nav{
 	margin-top:-9px;
 }
+
+/* mydropdown */
 .f-content{
 	width:410px;
 	height:256px;
@@ -287,7 +271,7 @@ nav{
     background: #f5f5f5;
 	position: absolute;
 	left:-5px;
-	top:50px;
+	top:52px;
     z-index: 99999;
     border-left: 1px solid #e1e1e1;
     border-right: 1px solid #e1e1e1;
@@ -383,6 +367,8 @@ nav{
 .f-content .product-right li{
 	text-align:left;
 }
+/* mydropdown */
+
 .qy_nav a:hover{background:#c5a86a;}
 /* .Z_TypeList .title{ background:#c5a86a; } */
 .huodong{ display:block; background:url(../images/huodong.png) no-repeat; width:110px; height:100px; margin-left:-10px;}
@@ -408,11 +394,34 @@ nav{
 .qy_toplist li.tweibo a:hover{ color:#868685; text-decoration:underline;}
 
 /* qy_hdcont */
-.qy_hd{ height:116px; padding:4px 20px 0 20px; }
+/* .qy_hd{ height:116px; padding:4px 20px 0 20px; } */
+.qy_hd{ height:163px;}
+.qy_head{
+	position:relative;
+}
+.qy_headbd{
+	z-index:11111;
+	/* display:flex;
+	display:-webkit-flex; */
+}
+.qy_hd{
+	width:100%;
+	height:163px;
+}
+.qy_hd img{
+	width:100%;
+	height:163px;
+}
+.qy_menu{
+	position:absolute;
+	top:119px;
+	left: 728px;
+	margin-left:-364px !important;
+}
 .qy_logo{ float:left; width:325px; height:67px; margin-top:25px; padding:6px 0 7px 0; background:url(../images/logobg.png) no-repeat right center;}
 
 /* qy_menu */
-.qy_menu{ width:1200px; height:40px;}
+.qy_menu{ width:1200px; height:40px; margin:0 auto;}
 
 /* kind */
 .kind{ float:left; width:230px; height:40px; line-height:40px; padding-left:10px; font-size:16px; font-family:Microsoft YaHei; color:#fff; background:#000;}
